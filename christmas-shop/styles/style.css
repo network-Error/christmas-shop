@@ -13,4 +13,53 @@ h6 {
   margin: 0;
 }
 
+.container {
+  width: 1276px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+.nav__logo-text {
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav__logo-link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav__links-link {
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav__links-element {
+  padding: 12px 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
