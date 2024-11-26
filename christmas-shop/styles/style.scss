@@ -39,12 +39,14 @@ li {
   &__logo {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 
     &-text {
       font-size: $fs-12;
       line-height: $lh-130;
       font-weight: $fw-600;
       text-transform: uppercase;
+      letter-spacing: .6px;
     }
   }
 
@@ -64,6 +66,7 @@ li {
       line-height: $lh-130;
       font-weight: $fw-600;
       text-transform: uppercase;
+      letter-spacing: .6px;
     }
 
     &-element {
@@ -71,4 +74,62 @@ li {
     }
   }
 
+}
+
+// Section Hero
+
+.hero {
+  background: url('../img/hero-section.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 524px;
+  display: flex;
+  justify-content: center;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    width: 426px;
+    margin: 60px auto;
+    gap: 12px;
+    text-align: center;
+  }
+
+  &__text {
+    font-family: $allura;
+    font-weight: $fw-400;
+    line-height: $lh-100;
+    color: $color-static-white;
+    font-size: $fs-24;
+    letter-spacing: 1.2px;
+  }
+
+  &__header {
+    font-size: $fs-32;
+    font-weight: $fw-600;
+    line-height: $lh-150;
+    color: $color-static-white;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+  }
+
+  &__btn-link {
+    width: 235px;
+    background-color: $color-dark;
+    color: $color-static-white;
+    font-size: $fs-12;
+    line-height: $lh-130;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
 }
