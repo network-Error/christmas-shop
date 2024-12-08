@@ -133,3 +133,76 @@ li {
     -o-border-radius: 20px;
   }
 }
+
+// Section About
+
+.about {
+  background-color: $color-primary;
+  max-height: max-content;
+  padding: 60px 0;
+
+  &__wrapper {
+    display: flex;
+    height: 528px;
+    background-color: $color-static-white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    &-container {
+      width: 50%;
+      // background-color: $color-static-white;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    .about__wrapper-text {
+      width: 426px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      margin-left: 60px;
+  
+      .about__text-head {
+        font-family: $allura;
+        font-weight: $fw-400;
+        font-size: $fs-24;
+        line-height: $lh-100;
+        letter-spacing: .5px;
+        color: $color-primary;
+      }
+
+      .about__header {
+        font-size: $fs-24;
+        font-weight: $fw-600;
+        line-height: $lh-152;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+
+      .about__text {
+        line-height: $lh-148;
+      }
+    }
+    
+    .about__wrapper-img {
+      background-image: url('../img/santa.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 50%;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+  }
+}
