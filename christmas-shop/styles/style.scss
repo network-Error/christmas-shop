@@ -28,6 +28,10 @@ li {
   list-style: none;
 }
 
+.main {
+  overflow: hidden;
+}
+
 // Header
 
 .nav {
@@ -153,7 +157,6 @@ li {
 
     &-container {
       width: 50%;
-      // background-color: $color-static-white;
       border-radius: 20px;
       -webkit-border-radius: 20px;
       -moz-border-radius: 20px;
@@ -205,4 +208,101 @@ li {
       -o-border-radius: 20px;
     }
   }
+}
+
+// Section Slider
+
+.slider {
+  background-color: $color-primary;
+}
+
+.slider__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 57px;
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .slider__text-head {
+    font-family: $allura;
+    font-size: $fs-24;
+    letter-spacing: 1px;
+    line-height: $lh-100;
+    color: $color-static-white;
+  }
+
+  .slider__header {
+    font-weight: $fw-600;
+    font-size: $fs-24;
+    line-height: $lh-152;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: $color-static-white;
+  }
+
+  .slider__wrapper-container {
+    padding-left: 160px;
+  }
+
+  .slider__slider-el-text {
+    font-weight: $fw-600;
+    font-size: $fs-80;
+    color: $color-static-white;
+    text-transform: uppercase;
+  }
+
+  .slider__slider-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .slider__slider-el {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .slider__slider-el-img {
+    width: 200px;
+    height: 200px;
+
+    &--third {
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+  }
+
+  .slider__wrapper-btn {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 20px;
+  }
+
+  .slider__btn {
+    width: 56px;
+    height: 56px;
+    background: none;
+    border: 1px solid $color-static-white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    &--left {
+      border-color: $color-static-white-40;
+    }
+  }
+
 }
