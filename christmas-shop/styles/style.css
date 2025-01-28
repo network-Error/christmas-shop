@@ -194,6 +194,7 @@ li {
   align-items: center;
   gap: 20px;
   padding-top: 57px;
+  padding-bottom: 60px;
 }
 .slider__wrapper-text {
   display: flex;
@@ -264,6 +265,104 @@ li {
 }
 .slider__wrapper .slider__btn--left {
   border-color: rgba(255, 255, 255, 0.4);
+}
+
+.gifts {
+  background-color: rgb(255, 70, 70);
+}
+
+.gifts__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 56px 0;
+}
+
+.gifts__wrapper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.gifts__wrapper-text .gifts__text-head {
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  font-family: "Allura", cursive;
+  position: relative;
+  top: 4px;
+}
+.gifts__wrapper-text .gifts__head {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  line-height: 152%;
+  letter-spacing: 3.9px;
+  text-transform: uppercase;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.gifts__cards-container {
+  display: flex;
+  gap: 12px;
+}
+
+.gifts__card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 243, 248);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.gifts__card-text-wrapper {
+  background-color: rgb(255, 255, 255);
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: -webkit-fill-available;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.gifts__card-text-top-header {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  position: relative;
+  top: -2px;
+  left: 2px;
+}
+.gifts__card-text-top-header--blue {
+  color: rgb(67, 97, 255);
+}
+.gifts__card-text-top-header--green {
+  color: rgb(6, 164, 79);
+}
+.gifts__card-text-top-header--pink {
+  color: rgb(255, 67, 247);
+}
+
+.gifts__card-text-header {
+  font-weight: 600;
+  line-height: 152%;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  position: relative;
+  top: -1px;
+  left: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */
